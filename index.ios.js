@@ -39,10 +39,14 @@ export default class food_trip extends Component {
     // const lat = this.state.position.coords.latitude;
     // const lng = this.state.position.coords.longitude;
     // const latlng = `ll=${String(lat)},${String(lng)}`;
+
+    // TODO Move to .env.js
     const consumerKey = 'nVeyIROhiW6EMFBcA5iA1w';
     const consumerSecret = 'GrP921_svILXGljhQSnm1_tMBX8';
-    const tokenSecret = '9XpvW154RPZxgB-LPcI5llrs47U';
-    const token = 'S5dzlOqQCjgMptscu9cZTG_yzyFaAyvq';
+    const tokenSecret = 'xxxxxx';
+    const token = 'xxxxxxxx';
+
+
     const searchTerm = 'ramen';
     const location = city;
     const radius = '2000';
